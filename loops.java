@@ -29,15 +29,24 @@ public class loops {
 //		
 		
 		//Tables for loop
-		Scanner scan=new Scanner(System.in);
-		System.out.println("Enter number:");
-		int num = scan.nextInt();
+		// Scanner scan=new Scanner(System.in);
+		// System.out.println("Enter number:");
+		// int num = scan.nextInt();
+		
+		
+		// for(int i=1;i<=10;i++) {
+		// 	System.out.println(num+"x"+i+"="+i*num);
+		// }
+
+			//NESTED FOR LOOP
 		
 		
 		for(int i=1;i<=10;i++) {
-			System.out.println(num+"x"+i+"="+i*num);
+			for(int j=1;j<=5;j++) {
+				System.out.println(j);
+			}
+			System.out.println("End");
 		}
-		
 	}
 
 }

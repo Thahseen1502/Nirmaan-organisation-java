@@ -1,19 +1,15 @@
-package day9;
+package day10;
 
 public class Main {
-
-	int a;
-	int b;
+public static void main(String[] args) {
 	
-
-	public static void main(String[] args){
-		
-		calculator calc = new calculator();
-		calc.add(10,20);
-		System.out.println(calc.sub(5, 10));
-		System.out.println(calc.mul(5, 10));
-		System.out.println(calc.div(5, 10));
-		System.out.println(calc.mod(5, 10));
-	}
+	Car def = new Car();
+	def.displayCarDetils();
 	
+	Car single = new Car("BMW");
+	single.displayCarDetils();
+	
+	Car two = new Car(2023,"TaTa");
+	two.displayCarDetils();
+}
 }

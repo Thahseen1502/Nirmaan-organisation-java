@@ -41,5 +41,10 @@ public static void main(String[] args) {
 	for(Object a:arr) {
 		System.out.println(a);
 	}
+
+	System.out.println();
+	Integer[]arr1 =new Integer[list2.size()];
+	list2.toArray(arr1);
+	System.out.println(arr1[0]);
 }
 }

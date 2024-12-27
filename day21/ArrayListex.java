@@ -35,6 +35,11 @@ public static void main(String[] args) {
 	System.out.println("Ascending order:"+list);
 	Collections.sort(list, Comparator.reverseOrder());//Descending order
 	System.out.println("Descending order: "+list);
-	
+
+	Object [] arr = list2.toArray();
+	System.out.println(arr);
+	for(Object a:arr) {
+		System.out.println(a);
+	}
 }
 }
